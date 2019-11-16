@@ -14,7 +14,7 @@ def map_to_no_change(array)
   i = 0
   
   while i < array.length do 
-    newarray << array[i]
+    newarray.push array[i]
     i += 1
   end
   return newarray
