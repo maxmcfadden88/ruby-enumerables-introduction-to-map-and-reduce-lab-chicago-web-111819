@@ -41,3 +41,14 @@ def map_to_square(array)
 end
 return newarray
 end 
+
+def reduce_to_total(array)
+  newarray = []
+  i = 0
+  
+  while i < array.length do 
+  newarray << array[i]+
+  i += 1
+end
+return newarray
+end 
